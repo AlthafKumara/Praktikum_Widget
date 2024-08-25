@@ -14,6 +14,7 @@ class ImageWidget extends StatelessWidget {
           Image(
               image: NetworkImage(
                   'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg')),
+          Image(image: AssetImage('assets/Cacing.png'))
         ],
       ),
     );
